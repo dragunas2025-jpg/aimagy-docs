@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@docusaurus/core": "latest",
-    "@docusaurus/preset-classic": "latest"
+    "@docusaurus/preset-classic": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
