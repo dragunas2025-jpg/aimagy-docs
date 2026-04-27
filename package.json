@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-    "build": "NO_COLOR=1 docusaurus build --no-minify"
+    "build": "docusaurus build --no-minify",
     "serve": "docusaurus serve"
   },
   "dependencies": {
