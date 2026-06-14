@@ -4,8 +4,8 @@
   align-items: center;
   padding: 5rem 0;
   background:
-    radial-gradient(circle at 85% 10%, rgba(255, 180, 51, 0.22), transparent 34%),
-    linear-gradient(145deg, #fffaf2 0%, #ffffff 58%);
+    radial-gradient(circle at 85% 10%, rgba(111, 114, 219, 0.2), transparent 34%),
+    linear-gradient(145deg, #f7f7ff 0%, #ffffff 58%);
 }
 
 .hero h1 {
@@ -17,7 +17,7 @@
 }
 
 .eyebrow {
-  color: #d97706;
+  color: var(--ifm-color-primary);
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.16em;
@@ -38,8 +38,8 @@
 
 [data-theme='dark'] .hero {
   background:
-    radial-gradient(circle at 85% 10%, rgba(245, 158, 11, 0.18), transparent 34%),
-    linear-gradient(145deg, #17130e 0%, #111827 58%);
+    radial-gradient(circle at 85% 10%, rgba(121, 116, 255, 0.18), transparent 34%),
+    linear-gradient(145deg, #0d0d12 0%, #101522 58%);
 }
 
 [data-theme='dark'] .lead {
