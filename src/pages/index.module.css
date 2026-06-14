@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  min-height: calc(100vh - 60px);
+  align-items: center;
+  padding: 5rem 0;
+  background:
+    radial-gradient(circle at 85% 10%, rgba(255, 180, 51, 0.22), transparent 34%),
+    linear-gradient(145deg, #fffaf2 0%, #ffffff 58%);
+}
+
+.hero h1 {
+  max-width: 780px;
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.eyebrow {
+  color: #d97706;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.lead {
+  max-width: 620px;
+  margin: 1.5rem 0 2rem;
+  color: #4b5563;
+  font-size: 1.25rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+[data-theme='dark'] .hero {
+  background:
+    radial-gradient(circle at 85% 10%, rgba(245, 158, 11, 0.18), transparent 34%),
+    linear-gradient(145deg, #17130e 0%, #111827 58%);
+}
+
+[data-theme='dark'] .lead {
+  color: #d1d5db;
+}

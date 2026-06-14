@@ -5,16 +5,20 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "serve": "docusaurus serve"
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "publish": "powershell -ExecutionPolicy Bypass -File scripts/publish.ps1"
   },
   "dependencies": {
-    "@docusaurus/core": "3.7.0",
-    "@docusaurus/preset-classic": "3.7.0",
+    "@docusaurus/core": "3.10.1",
+    "@docusaurus/preset-classic": "3.10.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "webpack": "5.94.0"
+    "react-dom": "18.3.1"
+  },
+  "overrides": {
+    "serialize-javascript": "7.0.5"
   },
   "engines": {
-    "node": "20"
+    "node": ">=20"
   }
 }
